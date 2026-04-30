@@ -1,55 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Romnath Khanal</title>
-    <title>Graphic Designer</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Romnath Khanal | Graphic Designer</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<!-- HEADER -->
 <header>
-    <h2>Romnath Khanal</h2>
+    <div class="logo">Romnath Khanal</div>
     <nav>
         <a href="#home">Home</a>
-        <a href="#work">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
 
+<!-- HERO -->
 <section id="home" class="hero">
-    <h2>Creative Graphic Designer</h2>
-    <p>I design logos, branding, and modern visuals.</p>
-    <button onclick="scrollToWork()">View My Work</button>
+    <h1>Hi, I'm Romnath</h1>
+    <h2>Graphic Designer</h2>
+    <p>I create logos, branding, posters & social media designs.</p>
+    <button onclick="scrollToPortfolio()">View Portfolio</button>
 </section>
 
-<section id="work" class="gallery">
-    <h2>My Designs</h2>
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        I am Romnath Khanal, a passionate and creative graphic designer. 
+        I help brands grow through modern and clean design solutions.
+    </p>
+</section>
 
-    <!-- 👇 Replace these images with your own -->
-    <div class="grid">
-        <img src="images/design1.jpg" alt="design">
-        <img src="images/design2.jpg" alt="design">
-        <img src="images/design3.jpg" alt="design">
-        <img src="images/design4.jpg" alt="design">
+<!-- SERVICES -->
+<section id="services" class="services">
+    <h2>My Services</h2>
+
+    <div class="service-box">
+        <h3>Logo Design</h3>
+        <p>Modern and creative logo design for your brand.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Social Media Design</h3>
+        <p>Eye-catching posts and ads for social media.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Branding</h3>
+        <p>Complete branding solution for businesses.</p>
     </div>
 </section>
 
+<!-- PORTFOLIO -->
+<section id="portfolio" class="portfolio">
+    <h2>My Work</h2>
+
+    <div class="grid">
+        <img src="images/design1.jpg">
+        <img src="images/design2.jpg">
+        <img src="images/design3.jpg">
+        <img src="images/design4.jpg">
+        <img src="images/design5.jpg">
+        <img src="images/design6.jpg">
+    </div>
+</section>
+
+<!-- CONTACT -->
 <section id="contact" class="contact">
     <h2>Contact Me</h2>
 
     <p>Email: <a href="mailto:kbishal041@gmail.com">kbishal041@gmail.com</a></p>
     <p>Phone: <a href="tel:+40726402263">+40 726 402 263</a></p>
 
-    <div class="social-icons">
+    <div class="social">
         <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png"></a>
         <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png"></a>
         <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733561.png"></a>
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png"></a>
     </div>
 </section>
 
-<script src="script.js"></script>
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Romnath Khanal | All Rights Reserved</p>
+</footer>
+
+
 </body>
 </html>
