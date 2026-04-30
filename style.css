@@ -8,7 +8,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 20px 40px;
     background: #000;
     position: sticky;
     top: 0;
@@ -23,7 +23,6 @@ nav a {
 .hero {
     text-align: center;
     padding: 120px 20px;
-    background: linear-gradient(135deg, #111, #1a1a1a);
 }
 
 .hero h2 {
@@ -31,17 +30,20 @@ nav a {
 }
 
 .hero button {
-    margin-top: 20px;
     padding: 12px 25px;
     background: #ff4c60;
     border: none;
     color: white;
-    cursor: pointer;
     border-radius: 5px;
 }
 
+.about {
+    padding: 60px;
+    text-align: center;
+}
+
 .gallery {
-    padding: 60px 40px;
+    padding: 60px;
     text-align: center;
 }
 
@@ -53,7 +55,7 @@ nav a {
 
 .grid img {
     width: 100%;
-    border-radius: 12px;
+    border-radius: 10px;
     transition: 0.3s;
 }
 
@@ -64,19 +66,19 @@ nav a {
 .contact {
     text-align: center;
     padding: 60px;
-    background: #111;
 }
 
 .contact a {
     color: #ff4c60;
 }
 
-.social-icons img {
+.social img {
     width: 30px;
     margin: 10px;
-    transition: 0.3s;
 }
 
-.social-icons img:hover {
-    transform: scale(1.2);
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
 }
