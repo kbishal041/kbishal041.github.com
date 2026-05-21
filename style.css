@@ -130,3 +130,76 @@ footer {
   color: #ffffff;
   box-shadow: 0 4px 15px rgba(246, 75, 91, 0.4); /* Adds a soft glow effect */
 }
+
+/* Overall Services Section Styles */
+.services-section {
+  padding: 60px 20px;
+  text-align: center; /* Centers the heading and grid content */
+  background-color: #000000;
+}
+
+/* Services Main Heading */
+.services-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+/* Grid Layout to display cards side-by-side or stacked */
+.services-grid {
+  display: flex;
+  flex-direction: column; /* Stacks vertically on mobile screens */
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto; /* Centers the entire grid container */
+  padding: 0 10px;
+}
+
+/* Individual Service Cards */
+.service-card {
+  background: #111111; /* Dark background card */
+  border: 1px solid #222222;
+  padding: 30px 20px;
+  border-radius: 20px; /* Rounded corners for cards */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Icon Styles */
+.service-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+/* Card Titles */
+.service-card h3 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Card Descriptions */
+.service-card p {
+  color: #aaaaaa;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Hover Effect for Cards */
+.service-card:hover {
+  transform: translateY(-5px); /* Lifts the card slightly when hovered */
+  border-color: #f64b5b; /* Changes border to your theme color */
+}
+
+/* For larger laptop/desktop screens */
+@media (min-width: 768px) {
+  .services-grid {
+    flex-direction: row; /* Shows cards side by side on desktop */
+    justify-content: center;
+  }
+  .service-card {
+    flex: 1; /* Makes all cards equal width */
+  }
+}
