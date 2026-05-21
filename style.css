@@ -263,3 +263,47 @@ footer {
     padding: 6px 10px; /* Reduces spacing around the text */
   }
 }
+
+.cv-container {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.custom-cv-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 32px;
+    background: linear-gradient(135deg, #ff4a57 0%, #d92634 100%);
+    color: #ffffff !important;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none !important;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(255, 74, 87, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover garda glowing ra dynamic animation effect */
+.custom-cv-btn:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #ff616d 0%, #ff4a57 100%);
+    box-shadow: 0 8px 25px rgba(255, 74, 87, 0.6);
+}
+
+.custom-cv-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(255, 74, 87, 0.4);
+}
+
+.custom-cv-btn svg {
+    transition: transform 0.3s ease;
+}
+
+/* Hover garda arrow icon safe sanga mathi move hune */
+.custom-cv-btn:hover svg {
+    transform: translate(2px, -2px);
+}
