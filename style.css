@@ -307,3 +307,24 @@ footer {
 .custom-cv-btn:hover svg {
     transform: translate(2px, -2px);
 }
+
+.cv-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #000000;
+}
+
+.cv-title {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.cv-image {
+  width: 100%;
+  max-width: 600px; /* PC मा धेरै ठूलो हुन दिँदैन */
+  height: auto;
+  border-radius: 15px; /* कुनाहरू हल्का गोलो बनाउँछ */
+  border: 2px solid #222222;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
