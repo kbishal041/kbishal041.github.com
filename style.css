@@ -82,3 +82,15 @@ footer {
     padding: 20px;
     background: #000;
 }
+
+.profile-pic {
+  width: 150px;          /* Sets the width of your photo */
+  height: 150px;         /* Sets the height of your photo */
+  border-radius: 50%;    /* Makes the photo perfectly circular */
+  object-fit: cover;     /* Prevents the image from stretching */
+  margin-bottom: 20px;   /* Adds spacing between the photo and your name */
+  border: 3px solid #f64b5b; /* Adds a nice border matching your theme color */
+  display: block;        /* Necessary for centering */
+  margin-left: auto;     /* Centers the image horizontally */
+  margin-right: auto;    /* Centers the image horizontally */
+}
