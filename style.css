@@ -203,3 +203,63 @@ footer {
     flex: 1; /* Makes all cards equal width */
   }
 }
+
+/* --- NAVIGATION BAR BASE STYLES (PC & LAPTOP) --- */
+.custom-navbar {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center; /* Centers the capsule menu on desktop */
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Comfortable spacing for desktop links */
+  background: #111111;
+  padding: 10px 20px;
+  border-radius: 50px; /* Perfect pill shape for desktop */
+  border: 1px solid #222222;
+  max-width: 90%;
+}
+
+.nav-item {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  white-space: nowrap; /* Prevents text from breaking into two lines */
+}
+
+.nav-item:hover {
+  background-color: #f64b5b;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(246, 75, 91, 0.4);
+}
+
+/* --- RESPONSIVE MEDIA QUERY (FOR MOBILE SCREENS) --- */
+@media (max-width: 600px) {
+  .custom-navbar {
+    padding: 10px 0; /* Reduces top/bottom spacing on mobile */
+  }
+
+  .nav-links {
+    gap: 4px; /* Shrinks the gap between items to fit smaller screens */
+    padding: 6px 8px; /* Compact padding inside the menu capsule */
+    border-radius: 30px; /* Adjusts the capsule curvature for mobile */
+    width: 95%; /* Uses max available width to avoid cutting off */
+  }
+
+  .nav-item {
+    font-size: 12px; /* Reduces font size so all 5 links fit on one line */
+    padding: 6px 10px; /* Reduces spacing around the text */
+  }
+}
