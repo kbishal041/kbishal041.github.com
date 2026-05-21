@@ -120,6 +120,29 @@
     <p>© 2026 Romnath Khanal | All Rights Reserved</p>
 </footer>
 
+<script>
+    // Get modal elements
+    const modal = document.getElementById("cvModal");
+    const openBtn = document.getElementById("openCvBtn");
+    const closeBtn = document.querySelector(".close-cv-btn");
 
+    // Open modal when button is clicked
+    openBtn.onclick = function() {
+        modal.style.display = "flex";
+    }
+
+    // Close modal when (X) is clicked
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // Close modal when user clicks anywhere outside the image
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+    
 </body>
 </html>
