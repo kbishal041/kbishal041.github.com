@@ -94,3 +94,39 @@ footer {
   margin-left: auto;     /* Centers the image horizontally */
   margin-right: auto;    /* Centers the image horizontally */
 }
+/* Styling the overall Navigation Bar */
+.custom-navbar {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center; /* Centers the whole menu */
+  background-color: #000000; /* Keeps the black background matching your theme */
+}
+
+/* Container for the menu links */
+.nav-links {
+  display: flex;
+  gap: 15px; /* Adds space between each round menu item */
+  background: #111111; /* Dark background container for the pills */
+  padding: 10px 20px;
+  border-radius: 50px; /* Makes the main container rounded */
+  border: 1px solid #222222;
+}
+
+/* Individual round menu items */
+.nav-item {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 30px; /* Makes each link individually rounded */
+  transition: all 0.3s ease; /* Smooth hover effect animation */
+}
+
+/* Hover effect - when you put cursor on the items */
+.nav-item:hover {
+  background-color: #f64b5b; /* Changes to your red/pink theme color on hover */
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(246, 75, 91, 0.4); /* Adds a soft glow effect */
+}
