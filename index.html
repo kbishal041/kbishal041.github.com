@@ -40,9 +40,19 @@
 </section>
 
     <div class="cv-container">
-    <h2 class="cv-title">My Curriculum Vitae</h2>
-    <img src="image/me.jpg" class="cv-image" alt="Romnath Khanal CV">
+    <button id="openCvBtn" class="custom-cv-btn">
+        <span>My Curriculum Vitae</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7" y1="7" x2="17" y2="7"></polyline><polyline points="17" y1="7" x2="17" y2="17"></polyline></svg>
+    </button>
 </div>
+
+<div id="cvModal" class="cv-modal">
+    <div class="cv-modal-content">
+        <span class="close-cv-btn">&times;</span>
+        <img src="image/me.jpg" alt="Romnath Khanal CV" class="popup-cv-img">
+    </div>
+</div>
+
   
 <!-- SERVICES -->
 <section id="services" class="services-section">
